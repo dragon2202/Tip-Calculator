@@ -1,0 +1,311 @@
+.home {
+    .content {
+        .header {
+            padding-top: 40px;
+            padding-bottom: 25px;
+            text-align: center;
+            letter-spacing: .5rem;
+        }
+        .parent-card {
+            margin: 0 auto;
+            border-radius: 12px;
+            max-width: 720px;
+            .ant-card-body {
+                margin: 0 auto;
+                .input {
+                    border-color: white;
+                    float: left;
+                    width: 50%;
+                    padding-right: 4px;
+                    .bill_input {
+                        color: hsl(186, 10%, 41%);
+                        .ant-input-number-affix-wrapper {
+                            width: 100%;
+                            background-color: hsl(207, 60%, 97%);
+                            .ant-input-number {
+                                background-color: hsl(207, 60%, 97%);
+                                .ant-input-number-input {
+                                    text-align: right;
+                                    padding-right: 10px;
+                                    color: hsl(183, 100%, 15%);
+                                    font-size: 24px;
+                                }
+                            }
+                            .ant-input-number-handler-wrap {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .select_tip_input {
+                        margin-top: 24px;
+                        .button_grid {
+                            border-color: white;
+                            .ant-card-body {
+                                padding: 0;
+                                .btn-group {
+                                    margin-top: 12px;
+                                    width: 100%;
+                                    .left {
+                                        text-align: center;
+                                        width: 30%;
+                                        margin-right: 5px;
+                                        background-color: hsl(183, 100%, 15%);
+                                        color: hsl(0, 0%, 100%);
+                                        border-radius: 6px;
+                                    }
+
+                                    .center {
+                                        text-align: center;
+                                        width: 30%;
+                                        margin-left: 5px;
+                                        margin-right: 5px;
+                                        background-color: hsl(183, 100%, 15%);
+                                        color: hsl(0, 0%, 100%);
+                                        border-radius: 6px;
+                                    }
+
+                                    .right {
+                                        text-align: center;
+                                        width: 30%;
+                                        margin-left: 5px;
+                                        background-color: 	hsl(185, 100%, 15%);
+                                        color: hsl(0, 0%, 100%);
+                                        border-radius: 6px;
+                                    }
+                                    .left:hover, .center:hover, .right:hover {
+                                        background-color: hsl(173, 61%, 77%);
+                                        color: black;
+                                    }
+                                }
+
+                                .btn-group_2 {
+                                    margin-top: 12px;
+                                    width: 100%;
+                                    .left {
+                                        text-align: center;
+                                        width: 30%;
+                                        margin-right: 5px;
+                                        background-color: hsl(183, 100%, 15%);
+                                        color: hsl(0, 0%, 100%);
+                                        border-radius: 6px;
+                                    }
+
+                                    .center {
+                                        text-align: center;
+                                        width: 30%;
+                                        margin-left: 5px;
+                                        margin-right: 5px;
+                                        background-color: hsl(183, 100%, 15%);
+                                        color: hsl(0, 0%, 100%);
+                                        border-radius: 6px;
+                                    }
+
+                                    .right {
+                                        text-align: center;
+                                        width: 30%;
+                                        margin-left: 5px;
+                                        background-color:hsl(180, 33%, 96%);
+                                        color:hsl(172, 14%, 42%);
+                                        border-radius: 6px;
+                                    }
+
+                                    .customPercentage_right {
+                                        text-align: center;
+                                        width: 30%;
+                                        margin-left: 5px;
+                                        color: hsl(186, 10%, 41%);
+                                        .ant-input-number-input-wrap {
+                                            background-color: hsl(207, 60%, 97%);
+                                            .ant-input-number-input {
+                                                text-align: right;
+                                                padding-right: 10px;
+                                                color: hsl(183, 100%, 15%);
+                                            }
+                                        }
+                                        .ant-input-number-handler-wrap {
+                                            display: none;
+                                        }
+                                    }
+                                    
+                                    .left:hover, .center:hover, .right:hover {
+                                        background-color: hsl(173, 61%, 77%);
+                                        color: black;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .people_input {
+                        margin-top: 24px;
+                        color: hsl(186, 10%, 41%);
+                        .people_title {
+                            .title {
+                                float: left;
+                            }
+                            .warning {
+                                color:hsl(53, 98%, 47%);
+                                float: right;
+                            }
+                        }
+                        .ant-input-number-affix-wrapper {
+                            width: 100%;
+                            background-color: hsl(207, 60%, 97%);
+                            .ant-input-number {
+                                background-color: hsl(207, 60%, 97%);
+                                .ant-input-number-input {
+                                    text-align: right;
+                                    padding-right: 10px;
+                                    font-size: 24px;
+                                    color: hsl(183, 100%, 15%);
+                                }
+                            }
+
+                            .ant-input-number-handler-wrap {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                .display {
+                    background-color: hsl(183, 100%, 15%);
+                    border-radius: 12px;
+                    float: right;
+                    width: 50%;
+                    height: 100%;
+                    padding-left: 4px;
+                    .ant-card-body {
+                        padding: 12px;
+
+                        .tip_amount_display {
+                            margin-top: 12px;
+                            height: 85px;
+                            background-color: hsl(183, 100%, 15%);
+                            border-color: hsl(183, 100%, 15%);
+                            .tip {
+                                margin-top: 10px;
+                                color: hsl(189, 41%, 97%);
+                                background-color: hsl(183, 100%, 15%);
+                                border-color: hsl(183, 100%, 15%);
+                                font-size: 14px;
+                                font-weight: 400;
+                                float: left;
+                                width: 48.5%;
+                                .person {
+                                    color: hsl(186, 14%, 56%);
+                                    font-size: 12px;
+                                }
+                            }
+                            .display {
+                                color: hsl(172, 69%, 44%);
+                                background-color: hsl(183, 100%, 15%);
+                                border-color: hsl(183, 100%, 15%);
+                                font-size: 32px;
+                                font-weight: 400;
+                                float: right;
+                                width: 48.5%;
+                            }
+                        }
+
+                        .total_display {
+                            background-color: hsl(183, 100%, 15%);
+                            border-color: hsl(183, 100%, 15%);
+
+                            .total {
+                                margin-top: 10px;
+                                color: hsl(0, 0%, 100%);
+                                background-color: hsl(183, 100%, 15%);
+                                border-color: hsl(183, 100%, 15%);
+                                font-size: 14px;
+                                font-weight: 400;
+                                float: left;
+                                width: 48.5%;
+                                .person {
+                                    color: hsl(186, 14%, 56%);
+                                    font-size: 12px;
+                                }
+                            }
+
+                            .display {
+                                color: hsl(172, 69%, 44%);
+                                background-color: hsl(183, 100%, 15%);
+                                border-color: hsl(183, 100%, 15%);
+                                font-size: 32px;
+                                font-weight: 400;
+                                float: right;
+                                width: 48.5%;
+                            }
+                        }
+
+                        .reset_button {
+                            background-color:hsl(183, 79%, 24%);
+                            border-color: hsl(183, 79%, 24%);
+                            color:hsl(183, 90%, 20%);
+                            border-radius: 6px;
+                            margin-top: 80px;
+                            width: 98%;
+                            bottom: 10px;
+                        }
+                        .reset_button:hover {
+                            background-color: hsl(173, 61%, 77%);
+                            color: hsl(179, 100%, 14%);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .home {
+        .content {
+            .parent-card {
+                max-width: 700px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .home {
+        .content {
+            .parent-card {
+                max-width: 550px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .home {
+        .content {
+            .parent-card {
+                max-width: 450px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .home {
+        .content {
+            .parent-card {
+                max-width: 350px;
+            }
+        }
+    }
+}
+
+//Untested as all the browser I used like Firefox, Internet Explorer, Chrome cant go below 450px
+@media screen and (max-width: 375px) {
+    .home {
+        .content {
+            .parent-card {
+                max-width: 330px;
+            }
+        }
+    }
+}
