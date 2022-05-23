@@ -1,3 +1,29 @@
+# Explanations for libraries used
+- AntD for the Material UI and components such as Cards, Buttons, Input
+- Jest for unit testing code
+- Node SASS for SASS Library, superset of CSS, SASS Loader for it to load it
+- React Router DOM, React Dom to serve pages
+
+## About
+This React/Typescript projject is a small application of a tip calculator that only shows tip per person plus total per person including tip
+
+## Screenshots
+
+### Desktop Preview
+<img src="/Screenshots/desktop-preview.jpg" width="100%">
+
+### Mobile Design
+<img src="/Screenshots/mobile-design.jpg" width="50%">
+
+### Desktop Empty
+<img src="/Screenshots/desktop-design-empty.jpg" width="100%">
+
+### Desktop Completed
+<img src="/Screenshots/desktop-design-completed.jpg" width="100%">
+
+### Active State
+<img src="/Screenshots/active-states.jpg" width="100%">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
