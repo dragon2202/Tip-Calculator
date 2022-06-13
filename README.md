@@ -5,7 +5,7 @@
 - React Router DOM, React Dom to serve pages
 
 ## About
-This React/Typescript projject is a small application of a tip calculator that only shows tip per person plus total per person including tip
+This React/Typescript project is a small application of a tip calculator that only shows tip per person plus total per person including tip
 
 ## Screenshots
 
